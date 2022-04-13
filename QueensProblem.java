@@ -33,7 +33,7 @@ public class QueensProblem {
       // Try this position
       Position pos = new Position(file, rank);
 
-      // It's a sage place for a piece
+      // It's a safe place for a piece
       if (board.isSafe(pos)) {
         board.setPiece(pos, Piece.Queen);
         
